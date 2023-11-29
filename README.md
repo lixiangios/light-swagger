@@ -1,4 +1,7 @@
 # light-swagger
+
+[在线体验](http://117.72.11.17)  
+  
 swagger assisted reader，一个swagger接口文档辅助阅读器  
   
 light-swagger是一个基于Swagger的实现，通过对Swagger接口的解析，提取了开发者最关心的关键字段，用简洁易读的方式呈现出来，解决了一般Swagger文档层级太多，不方便阅读和搜索的问题。  
