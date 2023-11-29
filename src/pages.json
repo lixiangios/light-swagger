@@ -6,13 +6,6 @@
 				"navigationBarTitleText": "light swagger",
 				"navigationStyle": "custom"
 			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "light swagger",
-				"navigationStyle": "custom"
-			}
 		}
 	],
 	"globalStyle": {
