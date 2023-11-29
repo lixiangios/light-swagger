@@ -1,0 +1,23 @@
+{
+  "explorer.confirmDelete": false, //删除文件的时候直接删
+  "editor.formatOnSave": true, //保存文件的时候格式化代码
+  "editor.formatOnPaste": true, //粘贴代码的时候自动格式化
+  "editor.defaultFormatter": "Vue.volar", //默认的格式化工具
+  "git.autofetch": true, //自动拉取
+  "turboConsoleLog.logMessagePrefix": "⭕️", //日志前缀
+  "turboConsoleLog.includeFileNameAndLineNum": false, //是否包含文件名和行号
+  "turboConsoleLog.quote": "'", //单引号
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.decorations.enabled": false
+}
