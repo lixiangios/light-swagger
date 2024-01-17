@@ -218,7 +218,7 @@ export default {
       }).then(() => {
         window.open('https://chromewebstore.google.com/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc', '_blank')
       }).catch(() => {
-        // console.log('取消')
+        console.log('取消')
       })
     },
 
@@ -315,8 +315,8 @@ export default {
           var parameters = coreValue.parameters || []
           parameters.forEach(item => {
             const schema = item.schema || {}
-            item.type = schema.type || '未知类型'
-            item.description = schema.description || '未知描述'
+            item.type = schema.type || item.type
+            item.description = schema.description || item.description
             // delete item.schema
             if (item.schema) {
               const bodyRef = item.schema['$ref'] || ''
